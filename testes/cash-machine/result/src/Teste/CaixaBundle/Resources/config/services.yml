@@ -1,0 +1,7 @@
+parameters:
+#    caixa.example.class: Teste\CaixaBundle\Example
+
+services:
+#    caixa.example:
+#        class: %caixa.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

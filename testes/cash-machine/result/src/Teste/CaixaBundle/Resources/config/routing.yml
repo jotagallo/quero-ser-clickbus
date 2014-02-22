@@ -1,0 +1,6 @@
+caixa_homepage:
+    pattern:  /caixa/
+    defaults: { _controller: CaixaBundle:Default:index }
+caixa_cash:
+  pattern:  /caixa/saque
+  defaults: { _controller: CaixaBundle:Default:cash }

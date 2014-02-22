@@ -1,0 +1,14 @@
+{% extends "AcmeDemoBundle::layout.html.twig" %}
+
+{% block title "Caixa - Digite o valor" %}
+
+{% block content %}
+<div class="saque-form">
+  <form action="/app_dev.php/caixa/saque" method="get">
+    <span class="label">Valor: </span>
+    <input type="text" name="valor"><br>
+    <input type="submit" value="Confirmar">
+  </form>
+</div>
+
+{% endblock %}

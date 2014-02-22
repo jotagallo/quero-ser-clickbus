@@ -1,0 +1,14 @@
+{% extends "AcmeDemoBundle::layout.html.twig" %}
+
+{% block title "Caixa - Retire seu dinheiro" %}
+
+{% block content %}
+<h2> Retire seu dinheiro</h2>
+  {% for valor, qtd in saque %}
+    {% for num in qtd %}
+      <div class="nota nota-{{valor}}"> Nota de {{valor}} </div>
+    {% endfor %}
+
+  {% endfor %}
+
+{% endblock %}
